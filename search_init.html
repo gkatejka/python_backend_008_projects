@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск</title>
+  <link href="css/styles.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container header">
+    <div class="header__wrapper">
+      <a href="/" class="header__logo-link">Яблочная лавка</a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="main.html" class="header__menu-link">Главная</a></li>
+          <li class="header__menu-item"><a href="search_init.html" class="header__menu-link">Поиск</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="page-search">
+      <h1 class="page-search__title title">Поиск</h1>
+      <form action="/echo" class="page-search__form">
+        <div class="page-search__input-wrap">
+          <input type="search" class="page-search__input input" placeholder="Например: Pro или  2018">
+        </div>
+        <button type="submit" class="page-search__btn">Найти</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

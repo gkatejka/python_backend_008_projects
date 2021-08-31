@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Добавить пользователя | База пользователей</title>
+  <link href="css/styles.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container header">
+    <div class="header__wrapper">
+      <a href="/" class="header__logo-link">База пользователей</a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="bd_main.html" class="header__menu-link">Все пользователи</a></li>
+          <li class="header__menu-item"><a href="bd_search.html" class="header__menu-link">Поиск</a></li>
+          <li class="header__menu-item"><a href="add_init.html" class="header__menu-link">Добавить</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="add-user">
+      <h1 class="add-user__title title">Добавить пользователя</h1>
+      <form action="/" class="add-user__form">
+        <div class="add-user__name-wrap">
+           <input type="text" class="add-user__input input" placeholder="Имя">
+        </div>
+        <div class="add-user__age-wrap">
+           <input type="text" class="add-user__input input" placeholder="Возвраст">
+        </div>
+        <div class="add-user__state-wrap">
+          <input type="checkbox" class="add-user__checkbox checkbox" id="state">
+          <label for="state" class="add-user__checkbox-label">Заблокирован</label>
+        </div>
+        <div class="add-user__date-wrap">
+          <input type="date" class="add-user__input input" placeholder="Дата разблокировки">
+        </div>
+        <div class="add-user__btn-wrap">
+          <button type="submit" class="add-user__btn">Добавить</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
